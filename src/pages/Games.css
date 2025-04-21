@@ -1,0 +1,129 @@
+/* Games Page Styles */
+.games-page {
+    font-family: 'Faculty Glyphic', sans-serif;
+    color: #333;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Header Section */
+  .games-hero {
+    text-align: center;
+    background: url('https://img.freepik.com/free-vector/gradient-grainy-texture_23-2148976750.jpg?semt=ais_hybrid') no-repeat center center;
+    background-size: cover;
+    padding: 60px 20px;
+    color: white;
+  }
+  
+  .games-hero h1 {
+    font-size: 3em;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .games-hero p1 {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+
+  .games-hero p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  
+  /* Games List Section */
+  .games-list {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .games-list h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .game-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .game-card {
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background-color: #9CCAFE;
+  }
+  
+  .game-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .game-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .game-card p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  /* Call-to-Action Section */
+  .games-cta {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .games-cta h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .games-cta button {
+    padding: 10px 20px;
+    background-color: #5593FE;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .games-cta button:hover {
+    background-color: #467bdb;
+  }
+  /* Style for Play Button */
+.play-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #5593FE;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .play-button:hover {
+    background-color: #467bdb;
+  }
+  

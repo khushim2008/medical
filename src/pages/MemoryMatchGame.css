@@ -1,0 +1,28 @@
+.memory-match-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  
+  .reset-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #5593FE;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .reset-btn:hover {
+    background-color: #467bdb;
+  }
+  
+  .game-over {
+    font-size: 2em;
+    color: green;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
